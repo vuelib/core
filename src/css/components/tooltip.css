@@ -1,0 +1,19 @@
+.ess.tooltip {
+  /* float: left; */
+  display: block;
+  padding: .8rem;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.ess.tooltip.dark {
+  color: var(--white);
+  background: var(--grey);
+}
+
+.ess.tooltip.light {
+  color: var(--grey-75);
+  background: var(--white);
+}

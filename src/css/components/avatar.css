@@ -1,0 +1,222 @@
+.ess.avatar {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 400;
+  user-select: none;
+  position: relative;
+  border-radius: 8px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+/* SHAPES */
+
+.ess.avatar.rounded {
+  border-radius: 8px;
+}
+
+.ess.avatar.circle {
+  border-radius: 999px;
+}
+
+/* SIZES */
+
+.ess.avatar.small {
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+}
+
+.ess.avatar.small > i {
+  font-size: 14px;
+}
+
+.ess.avatar.medium {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.ess.avatar.medium > i {
+  font-size: 18px;
+}
+
+.ess.avatar.big {
+  width: 52px;
+  height: 52px;
+  font-size: 20px;
+}
+
+.ess.avatar.big > i {
+  font-size: 20px;
+}
+
+/* FILLED */
+
+.ess.avatar.filled.primary {
+  color: var(--white);
+  background: var(--primary);
+}
+
+.ess.avatar.filled.primary > i {
+  color: var(--white);
+}
+
+.ess.avatar.filled.accent {
+  color: var(--white);
+  background: var(--accent);
+}
+
+.ess.avatar.filled.accent > i {
+  color: var(--white);
+}
+
+.ess.avatar.filled.error {
+  color: var(--white);
+  background: var(--error);
+}
+
+.ess.avatar.filled.error > i {
+  color: var(--white);
+}
+
+.ess.avatar.filled.success {
+  color: var(--white);
+  background: var(--success);
+}
+
+.ess.avatar.filled.success > i {
+  color: var(--white);
+}
+
+.ess.avatar.filled.warn {
+  color: var(--white);
+  background: var(--warn);
+}
+
+.ess.avatar.filled.warn > i {
+  color: var(--white);
+}
+
+.ess.avatar.filled.info {
+  color: var(--white);
+  background: var(--info);
+}
+
+.ess.avatar.filled.info > i {
+  color: var(--white);
+}
+
+/* HIGHLIGHTED */
+
+.ess.avatar.highlighted.primary {
+  color: var(--primary);
+  background: var(--primary-25);
+}
+
+.ess.avatar.highlighted.primary > i {
+  color: var(--primary);
+}
+
+.ess.avatar.highlighted.accent {
+  color: var(--accent);
+  background: var(--accent-25);
+}
+
+.ess.avatar.highlighted.accent > i {
+  color: var(--accent);
+}
+
+.ess.avatar.highlighted.error {
+  color: var(--error);
+  background: var(--error-25);
+}
+
+.ess.avatar.highlighted.error > i {
+  color: var(--error);
+}
+
+.ess.avatar.highlighted.success {
+  color: var(--success);
+  background: var(--success-25);
+}
+
+.ess.avatar.highlighted.success > i {
+  color: var(--success);
+}
+
+.ess.avatar.highlighted.warn {
+  color: var(--warn);
+  background: var(--warn-25);
+}
+
+.ess.avatar.highlighted.warn > i {
+  color: var(--warn);
+}
+
+.ess.avatar.highlighted.info {
+  color: var(--info);
+  background: var(--info-25);
+}
+
+.ess.avatar.highlighted.info > i {
+  color: var(--info);
+}
+
+/* OUTLINED */
+
+.ess.avatar.outlined.primary {
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.ess.avatar.outlined.primary > i {
+  color: var(--primary);
+}
+
+.ess.avatar.outlined.accent {
+  color: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+.ess.avatar.outlined.accent > i {
+  color: var(--accent);
+}
+
+.ess.avatar.outlined.error {
+  color: var(--error);
+  border: 2px solid var(--error);
+}
+
+.ess.avatar.outlined.error > i {
+  color: var(--error);
+}
+
+.ess.avatar.outlined.success {
+  color: var(--success);
+  border: 2px solid var(--success);
+}
+
+.ess.avatar.outlined.success > i {
+  color: var(--success);
+}
+
+.ess.avatar.outlined.warn {
+  color: var(--warn);
+  border: 2px solid var(--warn);
+}
+
+.ess.avatar.outlined.warn > i {
+  color: var(--warn);
+}
+
+.ess.avatar.outlined.info {
+  color: var(--info);
+  border: 2px solid var(--info);
+}
+
+.ess.avatar.outlined.info > i {
+  color: var(--info);
+}

@@ -1,0 +1,15 @@
+ul.ess.tabs {
+  margin:0;
+  padding: 0;
+  user-select: none;
+  text-indent: inherit;
+}
+
+ul.ess.tabs li.ess.tab {
+  margin:0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  list-style-type: none;
+  padding: 16px 20px;
+}

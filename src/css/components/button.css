@@ -1,0 +1,247 @@
+button.ess,
+submit.ess,
+input[type=reset].ess,
+input[type=button].ess,
+input[type=submit].ess {
+  margin: 0;
+  width: auto;
+  border: none;
+  font: inherit;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+  min-width: 6rem;
+  min-height: 2rem;
+  font-size: .7rem;
+  font-weight: 700;
+  overflow: visible;
+  user-select: none;
+  border-radius: 6px;
+  line-height: normal;
+  background: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  transition: all 300ms ease-in-out;
+}
+
+button.ess:disabled,
+submit.ess:disabled,
+input[type=reset].ess:disabled,
+input[type=button].ess:disabled,
+input[type=submit].ess:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+button.ess:hover:disabled,
+submit.ess:hover:disabled,
+input[type=reset].ess:hover:disabled,
+input[type=button].ess:hover:disabled,
+input[type=submit].ess:hover:disabled {
+  filter: none !important;
+}
+
+/* SIZES */
+
+button.ess.small,
+submit.ess.small,
+input[type=reset].ess.small,
+input[type=button].ess.small,
+input[type=submit].ess.small {
+  min-width: 6rem;
+  min-height: 2rem;
+  font-size: .7rem;
+}
+
+button.ess.medium,
+submit.ess.medium,
+input[type=reset].ess.medium,
+input[type=button].ess.medium,
+input[type=submit].ess.medium {
+  min-width: 9rem;
+  font-size: .8rem;
+  min-height: 2.5rem;
+}
+
+button.ess.big,
+submit.ess.big,
+input[type=reset].ess.big,
+input[type=button].ess.big,
+input[type=submit].ess.big {
+  min-width: 12rem;
+  min-height: 3rem;
+  font-size: 0.9rem;
+}
+
+/* SHAPES */
+
+button.ess.rounded,
+submit.ess.rounded,
+input[type=reset].ess.rounded,
+input[type=button].ess.rounded,
+input[type=submit].ess.rounded {
+  border-radius: 6px;
+}
+
+button.ess.pill,
+submit.ess.pill,
+input[type=reset].ess.pill,
+input[type=button].ess.pill,
+input[type=submit].ess.pill {
+  border-radius: 999px;
+}
+
+/* FILLED */
+
+button.ess.filled.light,
+submit.ess.filled.light,
+input[type=reset].ess.filled.light,
+input[type=button].ess.filled.light,
+input[type=submit].ess.filled.light {
+  color: var(--grey-75);
+  background: var(--grey-15);
+}
+
+button.ess.filled.light:hover,
+submit.ess.filled.light:hover,
+input[type=reset].ess.filled.light:hover,
+input[type=button].ess.filled.light:hover,
+input[type=submit].ess.filled.light:hover {
+  filter: brightness(90%);
+}
+
+button.ess.filled.dark,
+submit.ess.filled.dark,
+input[type=reset].ess.filled.dark,
+input[type=button].ess.filled.dark,
+input[type=submit].ess.filled.dark {
+  color: var(--white);
+  background: var(--grey);
+}
+
+button.ess.filled.dark:hover,
+submit.ess.filled.dark:hover,
+input[type=reset].ess.filled.dark:hover,
+input[type=button].ess.filled.dark:hover,
+input[type=submit].ess.filled.dark:hover {
+  filter: contrast(80%);
+}
+
+button.ess.filled.primary,
+submit.ess.filled.primary,
+input[type=reset].ess.filled.primary,
+input[type=button].ess.filled.primary,
+input[type=submit].ess.filled.primary {
+  color: var(--white);
+  background: var(--primary);
+}
+
+button.ess.filled.primary:hover,
+submit.ess.filled.primary:hover,
+input[type=reset].ess.filled.primary:hover,
+input[type=button].ess.filled.primary:hover,
+input[type=submit].ess.filled.primary:hover {
+  filter: brightness(90%);
+}
+
+/* CLEANED */
+
+button.ess.cleaned,
+submit.ess.cleaned,
+input[type=reset].ess.cleaned,
+input[type=button].ess.cleaned,
+input[type=submit].ess.cleaned {
+  color: var(--primary);
+  background: transparent;
+}
+
+button.ess.cleaned:hover,
+submit.ess.cleaned:hover,
+input[type=reset].ess.cleaned:hover,
+input[type=button].ess.cleaned:hover,
+input[type=submit].ess.cleaned:hover {
+  color: var(--primary);
+  background: var(--primary-alpha-20);
+}
+
+/* CLEANED */
+
+button.ess.cleaned.light,
+submit.ess.cleaned.light,
+input[type=reset].ess.cleaned.light,
+input[type=button].ess.cleaned.light,
+input[type=submit].ess.cleaned.light {
+  color: var(--white);
+  background: transparent;
+}
+
+button.ess.cleaned.light:hover,
+submit.ess.cleaned.light:hover,
+input[type=reset].ess.cleaned.light:hover,
+input[type=button].ess.cleaned.light:hover,
+input[type=submit].ess.cleaned.light:hover {
+  background: var(--light-overlay-15);
+}
+
+button.ess.float.cleaned.light:disabled,
+submit.ess.float.cleaned.light:disabled,
+input[type=reset].ess.float.cleaned.light:disabled,
+input[type=button].ess.float.cleaned.light:disabled,
+input[type=submit].ess.float.cleaned.light:disabled {
+  color: var(--white);
+  background: var(--light-overlay-15);
+}
+
+button.ess.cleaned.dark,
+submit.ess.cleaned.dark,
+input[type=reset].ess.cleaned.dark,
+input[type=button].ess.cleaned.dark,
+input[type=submit].ess.cleaned.dark {
+  color: var(--grey-75);
+  background: transparent;
+}
+
+button.ess.cleaned.dark:hover,
+submit.ess.cleaned.dark:hover,
+input[type=reset].ess.cleaned.dark:hover,
+input[type=button].ess.cleaned.dark:hover,
+input[type=submit].ess.cleaned.dark:hover {
+  background: var(--dark-overlay-15);
+}
+
+button.ess.cleaned.dark:disabled,
+submit.ess.cleaned.dark:disabled,
+input[type=reset].ess.cleaned.dark:disabled,
+input[type=button].ess.cleaned.dark:disabled,
+input[type=submit].ess.cleaned.dark:disabled {
+  color: var(--grey-75);
+  background: var(--dark-overlay-15);
+}
+
+button.ess.cleaned.primary,
+submit.ess.cleaned.primary,
+input[type=reset].ess.cleaned.primary,
+input[type=button].ess.cleaned.primary,
+input[type=submit].ess.cleaned.primary {
+  color: var(--primary);
+  background: transparent;
+}
+
+button.ess.cleaned.primary:hover,
+submit.ess.cleaned.primary:hover,
+input[type=reset].ess.cleaned.primary:hover,
+input[type=button].ess.cleaned.primary:hover,
+input[type=submit].ess.cleaned.primary:hover {
+  background: var(--primary-alpha-20);
+}
+
+button.ess.cleaned.primary:disabled,
+submit.ess.cleaned.primary:disabled,
+input[type=reset].ess.cleaned.primary:disabled,
+input[type=button].ess.cleaned.primary:disabled,
+input[type=submit].ess.cleaned.primary:disabled {
+  color: var(--primary);
+  background: var(--primary-alpha-20);
+}

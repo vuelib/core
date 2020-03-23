@@ -1,0 +1,223 @@
+.ess.badge {
+  height: 24px;
+  margin: 0 4px;
+  padding: 0 16px;
+  cursor: pointer;
+  font-size: 14px;
+  user-select: none;
+  position: relative;
+  border-radius: 6px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.ess.badge.dot {
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+/* SHAPES */
+
+.ess.rounded {
+  border-radius: 6px;
+}
+
+.ess.pill {
+  border-radius: 999px;
+}
+
+/* SIZES */
+
+.ess.badge.small {
+  height: 20px;
+  font-size: 12px;
+}
+
+.ess.badge.small > i {
+  font-size: 12px;
+}
+
+.ess.badge.medium {
+  height: 32px;
+  font-size: 14px;
+}
+
+.ess.badge.medium > i {
+  font-size: 14px;
+}
+
+.ess.badge.big {
+  height: 40px;
+  font-size: 18px;
+}
+
+.ess.badge.big > i {
+  font-size: 18px;
+}
+
+.ess.badge.dot.small {
+  width: 8px;
+  height: 8px;
+}
+
+.ess.badge.dot.medium {
+  width: 12px;
+  height: 12px;
+}
+
+.ess.badge.dot.big {
+  width: 16px;
+  height: 16px;
+}
+
+/* FILLED */
+
+.ess.badge.filled.primary {
+  color: var(--white);
+  background: var(--primary);
+}
+
+.ess.badge.filled.primary > i {
+  color: var(--white);
+}
+
+.ess.badge.filled.accent {
+  color: var(--white);
+  background: var(--accent);
+}
+
+.ess.badge.filled.accent > i {
+  color: var(--white);
+}
+
+.ess.badge.filled.error {
+  color: var(--white);
+  background: var(--error);
+}
+
+.ess.badge.filled.error > i {
+  color: var(--white);
+}
+
+.ess.badge.filled.success {
+  color: var(--white);
+  background: var(--success);
+}
+
+.ess.badge.filled.success > i {
+  color: var(--white);
+}
+
+.ess.badge.filled.warn {
+  color: var(--white);
+  background: var(--warn);
+}
+
+.ess.badge.filled.warn > i {
+  color: var(--white);
+}
+
+.ess.badge.filled.info {
+  color: var(--white);
+  background: var(--info);
+}
+
+.ess.badge.filled.info > i {
+  color: var(--white);
+}
+
+/* HIGHLIGHTED */
+
+.ess.badge.highlighted.primary {
+  color: var(--primary);
+  background: var(--primary-25);
+}
+
+.ess.badge.highlighted.primary > i {
+  color: var(--primary);
+}
+
+.ess.badge.highlighted.accent {
+  color: var(--accent);
+  background: var(--accent-25);
+}
+
+.ess.badge.highlighted.accent > i {
+  color: var(--accent);
+}
+
+.ess.badge.highlighted.error {
+  color: var(--error);
+  background: var(--error-25);
+}
+
+.ess.badge.highlighted.error > i {
+  color: var(--error);
+}
+
+.ess.badge.highlighted.success {
+  color: var(--success);
+  background: var(--success-25);
+}
+
+.ess.badge.highlighted.success > i {
+  color: var(--success);
+}
+
+.ess.badge.highlighted.warn {
+  color: var(--warn);
+  background: var(--warn-25);
+}
+
+.ess.badge.highlighted.warn > i {
+  color: var(--warn);
+}
+
+.ess.badge.highlighted.info {
+  color: var(--info);
+  background: var(--info-25);
+}
+
+.ess.badge.highlighted.info > i {
+  color: var(--info);
+}
+
+/* OUTLINED */
+
+.ess.badge.outlined.light {
+  border: 3px solid var(--white);
+}
+
+.ess.badge.outlined.dark {
+  border: 3px solid var(--dark);
+}
+
+.ess.badge.outlined.primary {
+  border: 3px solid var(--primary);
+}
+
+.ess.badge.outlined.accent {
+  border: 3px solid var(--accent);
+}
+
+.ess.badge.outlined.error {
+  border: 3px solid var(--error);
+}
+
+.ess.badge.outlined.success {
+  border: 3px solid var(--success);
+}
+
+.ess.badge.outlined.warn {
+  border: 3px solid var(--warn);
+}
+
+.ess.badge.outlined.info {
+  border: 3px solid var(--info);
+}

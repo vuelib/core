@@ -1,0 +1,75 @@
+ul.ess {
+  margin:0;
+  width: 100%;
+  padding: 16px 0;
+  user-select: none;
+  text-indent: inherit;
+  background: transparent;
+}
+
+ul.ess.horizontal {
+  display: flex;
+}
+
+ul.ess li.ess {
+  margin:0;
+  width: 100%;
+  display: flex;
+  padding: 16px 0;
+  cursor: pointer;
+  user-select: none;
+  list-style-type: none;
+  transition: all 200ms ease-in-out;
+}
+
+ul.ess.horizontal li.ess {
+  padding: 16px;
+}
+
+ul.ess.separator > li.ess {
+  border-right: none;
+  border-bottom: 1px solid var(--grey-15);
+}
+
+ul.ess.horizontal.separator > li.ess {
+  border-bottom: none;
+  border-right: 1px solid var(--grey-15);
+}
+
+ul.ess.separator > li.ess:last-child {
+  border: none;
+}
+
+ul.ess.highlight > li.ess:hover {
+  background: var(--grey-15);
+}
+
+ul.ess li.ess > .ess.leading {
+  flex: content;
+  display: flex;
+  padding: 0 8px;
+}
+
+ul.ess li.ess > .ess.content {
+  flex: auto;
+  display: flex;
+  padding: 0 8px;
+  flex-wrap: wrap;
+}
+
+ul.ess li.ess > .ess.content > .ess.title {
+  flex: 100%;
+  display: flex;
+  align-items: ce;
+}
+
+ul.ess li.ess > .ess.content > .ess.body {
+  flex: 100%;
+  display: flex;
+}
+
+ul.ess li.ess > .ess.trailing {
+  flex: content;
+  display: flex;
+  padding: 0 8px;
+}

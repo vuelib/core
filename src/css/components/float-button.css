@@ -1,0 +1,227 @@
+button.ess.float,
+submit.ess.float,
+input[type=reset].ess.float,
+input[type=button].ess.float,
+input[type=submit].ess.float {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  border: none;
+  font: inherit;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: .8rem;
+  overflow: visible;
+  user-select: none;
+  min-width: 1.6rem;
+  min-height: 1.6rem;
+  border-radius: 6px;
+  line-height: normal;
+  background: inherit;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  transition: all 300ms ease-in-out;
+}
+
+button.ess.float:disabled,
+submit.ess.float:disabled,
+input[type=reset].ess.float:disabled,
+input[type=button].ess.float:disabled,
+input[type=submit].ess.float:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+button.ess.float:hover:disabled,
+submit.ess.float:hover:disabled,
+input[type=reset].ess.float:hover:disabled,
+input[type=button].ess.float:hover:disabled,
+input[type=submit].ess.float:hover:disabled {
+  filter: none !important;
+}
+
+/* SIZES */
+
+button.ess.float.small,
+submit.ess.float.small,
+input[type=reset].ess.float.small,
+input[type=button].ess.float.small,
+input[type=submit].ess.float.small {
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+}
+
+button.ess.float.medium,
+submit.ess.float.medium,
+input[type=reset].ess.float.medium,
+input[type=button].ess.float.medium,
+input[type=submit].ess.float.medium {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+}
+
+button.ess.float.big,
+submit.ess.float.big,
+input[type=reset].ess.float.big,
+input[type=button].ess.float.big,
+input[type=submit].ess.float.big {
+  width: 48px;
+  height: 48px;
+  font-size: 20px
+}
+
+/* SHAPES */
+
+button.ess.float.rounded,
+submit.ess.float.rounded,
+input[type=reset].ess.float.rounded,
+input[type=button].ess.float.rounded,
+input[type=submit].ess.float.rounded {
+  border-radius: 6px;
+}
+
+button.ess.float.circle,
+submit.ess.float.circle,
+input[type=reset].ess.float.circle,
+input[type=button].ess.float.circle,
+input[type=submit].ess.float.circle {
+  border-radius: 999px;
+}
+
+/* FILLED */
+
+button.ess.float.filled.light,
+submit.ess.float.filled.light,
+input[type=reset].ess.float.filled.light,
+input[type=button].ess.float.filled.light,
+input[type=submit].ess.float.filled.light {
+  color: var(--grey-75);
+  background: var(--grey-15);
+}
+
+button.ess.float.filled.light:hover,
+submit.ess.float.filled.light:hover,
+input[type=reset].ess.float.filled.light:hover,
+input[type=button].ess.float.filled.light:hover,
+input[type=submit].ess.float.filled.light:hover {
+  filter: brightness(90%);
+}
+
+button.ess.float.filled.dark,
+submit.ess.float.filled.dark,
+input[type=reset].ess.float.filled.dark,
+input[type=button].ess.float.filled.dark,
+input[type=submit].ess.float.filled.dark {
+  color: var(--white);
+  background: var(--grey);
+}
+
+button.ess.float.filled.dark:hover,
+submit.ess.float.filled.dark:hover,
+input[type=reset].ess.float.filled.dark:hover,
+input[type=button].ess.float.filled.dark:hover,
+input[type=submit].ess.float.filled.dark:hover {
+  filter: contrast(80%);
+}
+
+button.ess.float.filled.primary,
+submit.ess.float.filled.primary,
+input[type=reset].ess.float.filled.primary,
+input[type=button].ess.float.filled.primary,
+input[type=submit].ess.float.filled.primary {
+  color: var(--white);
+  background: var(--primary);
+}
+
+button.ess.float.filled.primary:hover,
+submit.ess.float.filled.primary:hover,
+input[type=reset].ess.float.filled.primary:hover,
+input[type=button].ess.float.filled.primary:hover,
+input[type=submit].ess.float.filled.primary:hover {
+  filter: brightness(90%);
+}
+
+/* CLEANED */
+
+button.ess.float.cleaned.light,
+submit.ess.float.cleaned.light,
+input[type=reset].ess.float.cleaned.light,
+input[type=button].ess.float.cleaned.light,
+input[type=submit].ess.float.cleaned.light {
+  color: var(--white);
+  background: transparent;
+}
+
+button.ess.float.cleaned.light:hover,
+submit.ess.float.cleaned.light:hover,
+input[type=reset].ess.float.cleaned.light:hover,
+input[type=button].ess.float.cleaned.light:hover,
+input[type=submit].ess.float.cleaned.light:hover {
+  background: var(--light-overlay-15);
+}
+
+button.ess.float.cleaned.light:disabled,
+submit.ess.float.cleaned.light:disabled,
+input[type=reset].ess.float.cleaned.light:disabled,
+input[type=button].ess.float.cleaned.light:disabled,
+input[type=submit].ess.float.cleaned.light:disabled {
+  color: var(--white);
+  background: var(--light-overlay-15);
+}
+
+button.ess.float.cleaned.dark,
+submit.ess.float.cleaned.dark,
+input[type=reset].ess.float.cleaned.dark,
+input[type=button].ess.float.cleaned.dark,
+input[type=submit].ess.float.cleaned.dark {
+  color: var(--grey-75);
+  background: transparent;
+}
+
+button.ess.float.cleaned.dark:hover,
+submit.ess.float.cleaned.dark:hover,
+input[type=reset].ess.float.cleaned.dark:hover,
+input[type=button].ess.float.cleaned.dark:hover,
+input[type=submit].ess.float.cleaned.dark:hover {
+  background: var(--dark-overlay-15);
+}
+
+button.ess.float.cleaned.dark:disabled,
+submit.ess.float.cleaned.dark:disabled,
+input[type=reset].ess.float.cleaned.dark:disabled,
+input[type=button].ess.float.cleaned.dark:disabled,
+input[type=submit].ess.float.cleaned.dark:disabled {
+  color: var(--grey-75);
+  background: var(--dark-overlay-15);
+}
+
+button.ess.float.cleaned.primary,
+submit.ess.float.cleaned.primary,
+input[type=reset].ess.float.cleaned.primary,
+input[type=button].ess.float.cleaned.primary,
+input[type=submit].ess.float.cleaned.primary {
+  color: var(--primary);
+  background: transparent;
+}
+
+button.ess.float.cleaned.primary:hover,
+submit.ess.float.cleaned.primary:hover,
+input[type=reset].ess.float.cleaned.primary:hover,
+input[type=button].ess.float.cleaned.primary:hover,
+input[type=submit].ess.float.cleaned.primary:hover {
+  background: var(--primary-alpha-20);
+}
+
+button.ess.float.cleaned.primary:disabled,
+submit.ess.float.cleaned.primary:disabled,
+input[type=reset].ess.float.cleaned.primary:disabled,
+input[type=button].ess.float.cleaned.primary:disabled,
+input[type=submit].ess.float.cleaned.primary:disabled {
+  color: var(--primary);
+  background: var(--primary-alpha-20);
+}

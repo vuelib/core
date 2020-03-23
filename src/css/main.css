@@ -1,0 +1,53 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+
+@import 'utils/variables.css';
+
+@import 'utils/grid.css';
+@import 'utils/typography.css';
+
+@import 'components/badge.css';
+@import 'components/avatar.css';
+@import 'components/tabs.css';
+@import 'components/list.css';
+@import 'components/radio.css';
+@import 'components/button.css';
+@import 'components/tooltip.css';
+@import 'components/checkbox.css';
+@import 'components/separator.css';
+@import 'components/text-input.css';
+@import 'components/float-button.css';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 16px;
+  min-width: 60px;
+  max-width: 80px;
+  background: red;
+  position: relative;
+  justify-content: center;
+}
+
+.nav-bar .logo {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-radius: 8px;
+  background: var(--grey-15);
+}

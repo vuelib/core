@@ -1,0 +1,393 @@
+input[type=tel].ess,
+input[type=url].ess,
+input[type=text].ess,
+input[type=date].ess,
+input[type=time].ess,
+input[type=week].ess,
+input[type=email].ess,
+input[type=month].ess,
+input[type=number].ess,
+input[type=search].ess,
+input[type=password].ess,
+input[type=datetime-local].ess {
+  margin: 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: .8rem;
+  min-height: 40px;
+  appearance: none;
+  font-weight: 400;
+  padding: 0px 20px;
+  overflow: visible;
+  text-align: justify;
+  line-height: normal;
+  position: relative;
+  /* display: inline-block; */
+  background: transparent;
+  transition: 300ms all ease-in;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}
+
+input[type=tel].ess::placeholder,
+input[type=url].ess::placeholder,
+input[type=text].ess::placeholder,
+input[type=date].ess::placeholder,
+input[type=time].ess::placeholder,
+input[type=week].ess::placeholder,
+input[type=email].ess::placeholder,
+input[type=month].ess::placeholder,
+input[type=number].ess::placeholder,
+input[type=search].ess::placeholder,
+input[type=password].ess::placeholder,
+input[type=datetime-local].ess::placeholder {
+  transition: all 100ms ease-in;
+}
+
+input[type=tel].ess:focus::placeholder,
+input[type=url].ess:focus::placeholder,
+input[type=text].ess:focus::placeholder,
+input[type=date].ess:focus::placeholder,
+input[type=time].ess:focus::placeholder,
+input[type=week].ess:focus::placeholder,
+input[type=email].ess:focus::placeholder,
+input[type=month].ess:focus::placeholder,
+input[type=number].ess:focus::placeholder,
+input[type=search].ess:focus::placeholder,
+input[type=password].ess:focus::placeholder,
+input[type=datetime-local].ess:focus::placeholder {
+  font-size: 12px;
+}
+
+input[type=tel].ess:disabled,
+input[type=url].ess:disabled,
+input[type=text].ess:disabled,
+input[type=date].ess:disabled,
+input[type=time].ess:disabled,
+input[type=week].ess:disabled,
+input[type=email].ess:disabled,
+input[type=month].ess:disabled,
+input[type=number].ess:disabled,
+input[type=search].ess:disabled,
+input[type=password].ess:disabled,
+input[type=datetime-local].ess:disabled {
+  opacity: .6;
+  user-select: none;
+  cursor: not-allowed;
+}
+
+/* SHAPES */
+
+input[type=tel].ess.rounded,
+input[type=url].ess.rounded,
+input[type=text].ess.rounded,
+input[type=date].ess.rounded,
+input[type=time].ess.rounded,
+input[type=week].ess.rounded,
+input[type=email].ess.rounded,
+input[type=month].ess.rounded,
+input[type=number].ess.rounded,
+input[type=search].ess.rounded,
+input[type=password].ess.rounded,
+input[type=datetime-local].ess.rounded {
+  border-radius: 6px;
+}
+
+input[type=tel].ess.pill,
+input[type=url].ess.pill,
+input[type=date].ess.pill,
+input[type=text].ess.pill,
+input[type=time].ess.pill,
+input[type=week].ess.pill,
+input[type=month].ess.pill,
+input[type=email].ess.pill,
+input[type=number].ess.pill,
+input[type=search].ess.pill,
+input[type=password].ess.pill,
+input[type=datetime-local].ess.pill {
+  border-radius: 9999px;
+}
+
+/* FILLED */
+
+input[type=tel].ess.light.filled,
+input[type=url].ess.light.filled,
+input[type=text].ess.light.filled,
+input[type=date].ess.light.filled,
+input[type=time].ess.light.filled,
+input[type=week].ess.light.filled,
+input[type=email].ess.light.filled,
+input[type=month].ess.light.filled,
+input[type=number].ess.light.filled,
+input[type=search].ess.light.filled,
+input[type=password].ess.light.filled,
+input[type=datetime-local].ess.light.filled {
+  color: var(--black);
+  background: var(--grey-15);
+  border: none;
+}
+
+input[type=tel].ess.light.filled:disabled,
+input[type=url].ess.light.filled:disabled,
+input[type=text].ess.light.filled:disabled,
+input[type=date].ess.light.filled:disabled,
+input[type=time].ess.light.filled:disabled,
+input[type=week].ess.light.filled:disabled,
+input[type=email].ess.light.filled:disabled,
+input[type=month].ess.light.filled:disabled,
+input[type=number].ess.light.filled:disabled,
+input[type=search].ess.light.filled:disabled,
+input[type=password].ess.light.filled:disabled,
+input[type=datetime-local].ess.light.filled:disabled {
+  border: none;
+  color: var(--grey-45);
+  background: var(--grey-15);
+}
+
+input[type=tel].ess.light.filled::placeholder,
+input[type=url].ess.light.filled::placeholder,
+input[type=text].ess.light.filled::placeholder,
+input[type=date].ess.light.filled::placeholder,
+input[type=time].ess.light.filled::placeholder,
+input[type=week].ess.light.filled::placeholder,
+input[type=email].ess.light.filled::placeholder,
+input[type=month].ess.light.filled::placeholder,
+input[type=number].ess.light.filled::placeholder,
+input[type=search].ess.light.filled::placeholder,
+input[type=password].ess.light.filled::placeholder,
+input[type=datetime-local].ess.light.filled::placeholder {
+  color: var(--black);
+}
+
+input[type=tel].ess.dark.filled,
+input[type=url].ess.dark.filled,
+input[type=text].ess.dark.filled,
+input[type=date].ess.dark.filled,
+input[type=time].ess.dark.filled,
+input[type=week].ess.dark.filled,
+input[type=email].ess.dark.filled,
+input[type=month].ess.dark.filled,
+input[type=number].ess.dark.filled,
+input[type=search].ess.dark.filled,
+input[type=password].ess.dark.filled,
+input[type=datetime-local].ess.dark.filled {
+  color: var(--white);
+  background: var(--grey);
+  border: none;
+}
+
+input[type=tel].ess.dark.filled:disabled,
+input[type=url].ess.dark.filled:disabled,
+input[type=text].ess.dark.filled:disabled,
+input[type=date].ess.dark.filled:disabled,
+input[type=time].ess.dark.filled:disabled,
+input[type=week].ess.dark.filled:disabled,
+input[type=email].ess.dark.filled:disabled,
+input[type=month].ess.dark.filled:disabled,
+input[type=number].ess.dark.filled:disabled,
+input[type=search].ess.dark.filled:disabled,
+input[type=password].ess.dark.filled:disabled,
+input[type=datetime-local].ess.dark.filled:disabled {
+  color: var(--white);
+  background: var(--grey);
+}
+
+input[type=tel].ess.dark.filled::placeholder,
+input[type=url].ess.dark.filled::placeholder,
+input[type=text].ess.dark.filled::placeholder,
+input[type=date].ess.dark.filled::placeholder,
+input[type=time].ess.dark.filled::placeholder,
+input[type=week].ess.dark.filled::placeholder,
+input[type=email].ess.dark.filled::placeholder,
+input[type=month].ess.dark.filled::placeholder,
+input[type=number].ess.dark.filled::placeholder,
+input[type=search].ess.dark.filled::placeholder,
+input[type=password].ess.dark.filled::placeholder,
+input[type=datetime-local].ess.dark.filled::placeholder {
+  color: var(--white);
+}
+
+input[type=tel].ess.primary.filled,
+input[type=url].ess.primary.filled,
+input[type=text].ess.primary.filled,
+input[type=date].ess.primary.filled,
+input[type=time].ess.primary.filled,
+input[type=week].ess.primary.filled,
+input[type=email].ess.primary.filled,
+input[type=month].ess.primary.filled,
+input[type=number].ess.primary.filled,
+input[type=search].ess.primary.filled,
+input[type=password].ess.primary.filled,
+input[type=datetime-local].ess.primary.filled {
+  color: var(--white);
+  background: var(--primary);
+  border: none;
+}
+
+input[type=tel].ess.primary.filled:disabled,
+input[type=url].ess.primary.filled:disabled,
+input[type=text].ess.primary.filled:disabled,
+input[type=date].ess.primary.filled:disabled,
+input[type=time].ess.primary.filled:disabled,
+input[type=week].ess.primary.filled:disabled,
+input[type=email].ess.primary.filled:disabled,
+input[type=month].ess.primary.filled:disabled,
+input[type=number].ess.primary.filled:disabled,
+input[type=search].ess.primary.filled:disabled,
+input[type=password].ess.primary.filled:disabled,
+input[type=datetime-local].ess.primary.filled:disabled {
+  color: var(--white);
+  background: var(--primary);
+}
+
+input[type=tel].ess.primary.filled::placeholder,
+input[type=url].ess.primary.filled::placeholder,
+input[type=text].ess.primary.filled::placeholder,
+input[type=date].ess.primary.filled::placeholder,
+input[type=time].ess.primary.filled::placeholder,
+input[type=week].ess.primary.filled::placeholder,
+input[type=email].ess.primary.filled::placeholder,
+input[type=month].ess.primary.filled::placeholder,
+input[type=number].ess.primary.filled::placeholder,
+input[type=search].ess.primary.filled::placeholder,
+input[type=password].ess.primary.filled::placeholder,
+input[type=datetime-local].ess.primary.filled::placeholder {
+  color: var(--white);
+}
+
+/* OUTLINED */
+
+input[type=tel].ess.light,
+input[type=url].ess.light,
+input[type=text].ess.light,
+input[type=date].ess.light,
+input[type=time].ess.light,
+input[type=week].ess.light,
+input[type=email].ess.light,
+input[type=month].ess.light,
+input[type=number].ess.light,
+input[type=search].ess.light,
+input[type=password].ess.light,
+input[type=datetime-local].ess.light {
+  color: var(--black);
+  background: var(--white);
+  border: 1px solid var(--grey-30);
+}
+
+input[type=tel].ess.light:disabled,
+input[type=url].ess.light:disabled,
+input[type=text].ess.light:disabled,
+input[type=date].ess.light:disabled,
+input[type=time].ess.light:disabled,
+input[type=week].ess.light:disabled,
+input[type=email].ess.light:disabled,
+input[type=month].ess.light:disabled,
+input[type=number].ess.light:disabled,
+input[type=search].ess.light:disabled,
+input[type=password].ess.light:disabled,
+input[type=datetime-local].ess.light:disabled {
+  border: none;
+  color: var(--grey-45);
+  background: var(--grey-15);
+}
+
+input[type=tel].ess.light::placeholder,
+input[type=url].ess.light::placeholder,
+input[type=text].ess.light::placeholder,
+input[type=date].ess.light::placeholder,
+input[type=time].ess.light::placeholder,
+input[type=week].ess.light::placeholder,
+input[type=email].ess.light::placeholder,
+input[type=month].ess.light::placeholder,
+input[type=number].ess.light::placeholder,
+input[type=search].ess.light::placeholder,
+input[type=password].ess.light::placeholder,
+input[type=datetime-local].ess.light::placeholder {
+  color: var(--grey-45);
+}
+
+input[type=tel].ess.dark,
+input[type=url].ess.dark,
+input[type=text].ess.dark,
+input[type=date].ess.dark,
+input[type=time].ess.dark,
+input[type=week].ess.dark,
+input[type=email].ess.dark,
+input[type=month].ess.dark,
+input[type=number].ess.dark,
+input[type=search].ess.dark,
+input[type=password].ess.dark,
+input[type=datetime-local].ess.dark {
+  color: var(--white);
+  background: var(--grey);
+  border: 1px solid var(--grey-60);
+}
+
+input[type=tel].ess.dark:disabled,
+input[type=url].ess.dark:disabled,
+input[type=text].ess.dark:disabled,
+input[type=date].ess.dark:disabled,
+input[type=time].ess.dark:disabled,
+input[type=week].ess.dark:disabled,
+input[type=email].ess.dark:disabled,
+input[type=month].ess.dark:disabled,
+input[type=number].ess.dark:disabled,
+input[type=search].ess.dark:disabled,
+input[type=password].ess.dark:disabled,
+input[type=datetime-local].ess.dark:disabled {
+  border: none;
+  color: var(--grey-75);
+  background: var(--grey);
+}
+
+input[type=tel].ess.dark::placeholder,
+input[type=url].ess.dark::placeholder,
+input[type=text].ess.dark::placeholder,
+input[type=date].ess.dark::placeholder,
+input[type=time].ess.dark::placeholder,
+input[type=week].ess.dark::placeholder,
+input[type=email].ess.dark::placeholder,
+input[type=month].ess.dark::placeholder,
+input[type=number].ess.dark::placeholder,
+input[type=search].ess.dark::placeholder,
+input[type=password].ess.dark::placeholder,
+input[type=datetime-local].ess.dark::placeholder {
+  color: var(--grey-60);
+}
+
+input[type=tel].ess.primary:focus,
+input[type=url].ess.primary:focus,
+input[type=text].ess.primary:focus,
+input[type=date].ess.primary:focus,
+input[type=time].ess.primary:focus,
+input[type=week].ess.primary:focus,
+input[type=email].ess.primary:focus,
+input[type=month].ess.primary:focus,
+input[type=number].ess.primary:focus,
+input[type=search].ess.primary:focus,
+input[type=password].ess.primary:focus,
+input[type=datetime-local].ess.primary:focus {
+  border: 1px solid var(--primary);
+}
+
+/* HINT */
+
+/* input[type=text].ess + .ess.text-input.hint {
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 300ms ease-in;
+}
+
+input[type=text].ess:focus + .ess.text-input.hint {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+input[type=text].ess.primary:focus + .ess.text-input.hint {
+  color: var(--primary);
+}
+
+input[type=text].ess.accent:focus + .ess.text-input.hint {
+  color: var(--accent);
+} */

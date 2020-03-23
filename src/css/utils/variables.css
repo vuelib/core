@@ -1,0 +1,50 @@
+:root {
+  --primary: #0084FF;
+  --primary-75: #40A3FF;
+  --primary-25: #BFE0FF;
+  --primary-alpha-20: rgba(0, 132, 255, .2);
+  
+  --accent: #9160D0;
+  --accent-75: #AD88DC;
+  --accent-25: #E4D7F3;
+  --accent-alpha-20: rgba(145, 96, 208, .2);
+
+  --error: #F51F40;
+  --error-75: #F75770;
+  --error-25: #FDD5DB;
+
+  --success: #00C48C;
+  --success-75: #7DDFC3;
+  --success-25: #D5F2EA;
+
+  --warn: #FFCF5C;
+  --warn-75: #FFE29D;
+  --warn-25: #FFF8E7;
+
+  --info: #4663E5;
+  --info-75: #748AEB;
+  --info-25: #D1D8F8;
+
+  --black: rgba(0, 0, 0, 1);
+  --grey: rgba(13, 13, 13, 1);
+  --grey-75: rgba(77, 77, 77, 1);
+  --grey-60: rgba(115, 115, 115, 1);
+  --grey-45: rgba(153, 153, 153, 1);
+  --grey-30: rgba(191, 191, 191, 1);
+  --grey-15: rgba(229, 229, 229, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --dark-overlay-90: rgba(0, 0, 0, 0.90);
+  --dark-overlay-75: rgba(0, 0, 0, 0.75);
+  --dark-overlay-60: rgba(0, 0, 0, 0.60);
+  --dark-overlay-45: rgba(0, 0, 0, 0.45);
+  --dark-overlay-30: rgba(0, 0, 0, 0.30);
+  --dark-overlay-15: rgba(0, 0, 0, 0.15);
+  
+  --light-overlay-90: rgba(255, 255, 255, 0.90);
+  --light-overlay-75: rgba(255, 255, 255, 0.75);
+  --light-overlay-60: rgba(255, 255, 255, 0.60);
+  --light-overlay-45: rgba(255, 255, 255, 0.45);
+  --light-overlay-30: rgba(255, 255, 255, 0.30);
+  --light-overlay-15: rgba(255, 255, 255, 0.15);
+}

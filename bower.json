@@ -1,0 +1,20 @@
+{
+  "name": "@essencia/core",
+  "description": "Essência core",
+  "main": "dist/index.js",
+  "author": "Bruno <bruno.dos1997@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "essencia",
+    "framework",
+    "lodash"
+  ],
+  "homepage": "https://github.com/essencia/core",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

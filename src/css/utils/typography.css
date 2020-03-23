@@ -1,0 +1,181 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.ess.headling-1 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 28px;
+  font-style: normal;
+}
+
+.ess.headling-2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  font-style: normal;
+}
+
+.ess.headling-3 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  font-style: normal;
+}
+
+.ess.headling-4 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.ess.body-1 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.ess.body-2 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: normal;
+}
+
+.ess.caption-1 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  font-style: normal;
+}
+
+.ess.caption-2 {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 13px;
+  font-style: normal;
+}
+
+.ess.small-text {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  font-style: normal;
+}
+
+i.ess {
+  margin: 0 8px;
+  font-size: 18px;
+  color: var(--grey-45);
+}
+
+.ess.tp-gutter {
+  padding: 0 8px;
+}
+
+.ess.fc-black {
+  color: var(--black);
+}
+
+.ess.fc-grey {
+  color: var(--grey);
+}
+
+.ess.fc-grey-75 {
+  color: var(--grey-75);
+}
+
+.ess.fc-grey-60 {
+  color: var(--grey-60);
+}
+
+.ess.fc-grey-45 {
+  color: var(--grey-45);
+}
+
+.ess.fc-grey-30 {
+  color: var(--grey-30);
+}
+
+.ess.fc-grey-15 {
+  color: var(--grey-15);
+}
+
+.ess.fc-white {
+  color: var(--white);
+}
+
+.ess.fc-primary {
+  color: var(--primary);
+}
+
+.ess.fc-primary-75 {
+  color: var(--primary-75);
+}
+
+.ess.fc-primary-25 {
+  color: var(--primary-25);
+}
+
+.ess.fc-accent {
+  color: var(--accent);
+}
+
+.ess.fc-accent-75 {
+  color: var(--accent);
+}
+
+.ess.fc-accent-25 {
+  color: var(--accent);
+}
+
+.ess.fc-error {
+  color: var(--error);
+}
+
+.ess.fc-error-75 {
+  color: var(--error);
+}
+
+.ess.fc-error-25 {
+  color: var(--error);
+}
+
+.ess.fc-success {
+  color: var(--success);
+}
+
+.ess.fc-success-75 {
+  color: var(--success);
+}
+
+.ess.fc-success-25 {
+  color: var(--success);
+}
+
+.ess.fc-warn {
+  color: var(--warn);
+}
+
+.ess.fc-warn-75 {
+  color: var(--warn);
+}
+
+.ess.fc-warn-25 {
+  color: var(--warn);
+}
+
+.ess.fc-info {
+  color: var(--info);
+}
+
+.ess.fc-info-75 {
+  color: var(--info);
+}
+
+.ess.fc-info-25 {
+  color: var(--info);
+}
